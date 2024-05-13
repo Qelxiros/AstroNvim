@@ -40,6 +40,6 @@ vim.g.calendar_google_calendar = 1
 vim.cmd "source ~/.config/nvim/lua/plugins/configs/credentials.vim"
 
 require("oil").setup()
-vim.keymap.set("n", "-", "<CMD>Oil --float<CR>", { desc = "Open parent directory" })
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
 require("image").setup()
