@@ -14,4 +14,6 @@ return {
   { import = "astrocommunity.colorscheme.nightfox-nvim" },
   { import = "astrocommunity.colorscheme.night-owl-nvim" },
   -- import/override with your plugins folder
+
+  { import = "astrocommunity.pack.rust" },
 }
